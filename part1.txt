@@ -1,0 +1,27 @@
+Part 1 : Error detective 
+# snippet 1
+1/  TypeError, it will say that you can not add a str and an int. 
+2/ Verify: TypeError: can only concatenate str (not "int") to str
+3/ print("The answer is: " + str(42))
+
+
+# snippet 2
+1/ TypeError, can only add str with a str
+2 TypeError: can only concatenate str (not "int") to str (issue in line 2)
+3/ result = int( favorite ) + 10
+
+# snippet 3
+1/ SyntaxError, its missing the closing quote 
+2: SyntaxError: EOL while scanning string literal
+3/ print(“Hello World”)
+
+# snippet 4
+1/ ValueError, you can not turn word into a number 
+2/ ValueError: invalid literal for int() with base 10: 'twenty-five'
+3/ age = int(“25”)
+
+# snippet 5
+1/ NameError, name ‘username’ has not been defined 
+2/ NameError: name 'username' is not defined
+3/ username = Anthony
+    print(username)
